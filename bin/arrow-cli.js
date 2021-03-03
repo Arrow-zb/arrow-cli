@@ -1,13 +1,11 @@
 #!/usr/bin/env node
-const program = require('commander');
-const package = require('../package.json');
+require("../lib/init")();
 
-program.version(package.version);
-
-program
-  .command('init <name>')
-  .description('init project')
-  .action(name => {
-    console.log('init' + name);
-  })
-program.parse(process.argv);
+/**
+ * 初始化项目顺序
+ * [initialization]
+ * ->
+ * [create] 初始化选项
+ * ->
+ * [creator] 拷贝模板，安装依赖
+ */
