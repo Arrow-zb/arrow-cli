@@ -1,6 +1,6 @@
 {
   "name": "@arrow-zb/cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "@arrow-zb/cli",
   "main": "index.js",
   "bin": {
@@ -32,5 +32,8 @@
     "inquirer": "^8.0.0",
     "ora": "^5.3.0",
     "request": "^2.88.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
