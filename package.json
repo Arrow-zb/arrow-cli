@@ -1,6 +1,6 @@
 {
   "name": "@arrow-zb/cli",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A scaffold tool for quickly building project infrastructure",
   "main": "index.js",
   "bin": {
