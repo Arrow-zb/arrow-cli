@@ -1,2 +1,20 @@
-# paopao-cli
-本来是计划取名为 arrow-cli 的，可惜 npm 上已经存在了，所以只能取名为 paopao-cli 了
+# @arrow-zb/cli
+It was originally planned to be named arrow cli. Unfortunately, it already exists in NPM, so it can only be named @ arrow ZB / cli
+
+English | [简体中文](./docs/README.zh-CN.md)
+
+## install 
+The latest LTS version of Node.js is recommended, or at least ensure node >= 8.0
+
+There are serverl way to install it globally.
+
+* Install with [npm](https://www.npmjs.com/package/@arrow-zb/cli): `npm install @arrow-zb/cli -g`
+
+* Install with [Yarn](https://yarnpkg.com/package/@arrow-zb/cli): `yarn global add @arrow-zb/cli`
+
+But it is recommended that you install it locally.
+```bash
+npm install @arrow-zb/cli -D 
+#or
+yarn add @arrow-zb/cli -D
+```

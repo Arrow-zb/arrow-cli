@@ -1,17 +1,25 @@
 {
-  "name": "paopao-cli",
-  "version": "1.0.0",
-  "description": "paopao-cli",
+  "name": "@arrow-zb/cli",
+  "version": "0.0.1",
+  "description": "@arrow-zb/cli",
   "main": "index.js",
   "bin": {
-    "paopao-cli": "./bin/paopao-cli.js"
+    "arrow": "./bin/arrow-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arrow-zb/arrow-cli.git"
+  },
   "keywords": [],
-  "author": "paopao-arrow",
+  "author": "arrow-zb",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arrow-zb/arrow-cli/issues",
+    "email": "arrow_zb@outlook.com"
+  },
   "engines": {
     "node": ">=8.0"
   },
