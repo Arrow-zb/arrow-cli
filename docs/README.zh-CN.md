@@ -18,3 +18,9 @@ npm install @arrow-zb/cli -D
 #or
 yarn add @arrow-zb/cli -D
 ```
+
+## arrow init
+### 创建项目
+```shell
+arrow create <app-name>
+```
