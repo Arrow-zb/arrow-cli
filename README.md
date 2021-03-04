@@ -22,5 +22,5 @@ yarn add @arrow-zb/cli -D
 ## arrow init
 ### create project
 ```shell
-arrow create <app-name>
+arrow-cli create <app-name>
 ```
