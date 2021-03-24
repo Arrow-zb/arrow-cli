@@ -1,5 +1,8 @@
 # @arrow-zb/cli
-It was originally planned to be named arrow cli. Unfortunately, it already exists in NPM, so it can only be named @ arrow-zb/cli
+It was originally planned to be named arrow cli. Unfortunately, it already exists in NPM, so it can only be named @ arrow-zb/cli。
+
+This is a scaffold for quickly creating the front end project of Arrow.
+You can choose the basic template you need. It will download the corresponding template for you, making your development project more agile, simpler, and more time devoted to the business rather than the basic framework.
 
 English | [简体中文](./docs/README.zh-CN.md)
 
@@ -19,8 +22,21 @@ npm install @arrow-zb/cli -D
 yarn add @arrow-zb/cli -D
 ```
 
+When you are going to use it to create a project, it will automatically detect whether the current version is the latest version.If not, it needs to be updated。
+```shell
+npm update @arrow-zb/cli -D --latest
+```
+
 ## arrow init
 ### create project
 ```shell
-arrow-cli create <app-name>
+# globally install
+@arrow-zb/cli create <app-name>
+# locally install
+npx @arrow-zb/cli create <app-name>
+```
+
+### other options
+```shell
+@arrow-zb/cli -V
 ```
